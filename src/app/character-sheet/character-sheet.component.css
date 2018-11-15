@@ -1,0 +1,7 @@
+.character-sheet{
+    background-image: url('../../assets/images/character-sheet-background.png');
+    background-size: 850px 1100px;
+    width: 850px;
+    height: 1100px;
+    margin: auto;
+}
