@@ -7,6 +7,7 @@ import { CharacterService} from '../character-service.service';
 })
 export class CharacterSheetComponent implements OnInit {
 
+  public abilityScores = this.characterService.abilityScores$;
   constructor(public characterService: CharacterService) { }
 
   ngOnInit() {

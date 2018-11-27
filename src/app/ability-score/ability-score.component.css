@@ -1,0 +1,22 @@
+.ability-container {
+  margin-bottom: 29.5px;
+}
+
+.ability-score {
+  font-size: 25px;
+}
+
+.ability-bonus {
+  font-size: 36px;
+}
+
+.ability-button {
+  height: 10px;
+  width: 10px;
+  background-color: aquamarine;
+}
+
+.ability-score-number {
+  width: 10px;
+  margin: auto;
+}

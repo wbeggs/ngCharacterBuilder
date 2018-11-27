@@ -4,4 +4,13 @@
     width: 850px;
     height: 1100px;
     margin: auto;
+    position: relative;
+}
+
+.ability-scores {
+  position: absolute;
+  top: 213px;
+  left: 55px;
+  width:50px;
+  text-align: center;
 }

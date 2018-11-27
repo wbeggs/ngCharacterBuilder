@@ -17,13 +17,12 @@ export class CharacterService {
       abilityScores: []
     };
 
-
-
     let abilityNames = ['Strength', 'Dexterity', 'Constitution', 'Intelligence', 'Wisdom', 'Charisma'];
 
     abilityNames.forEach(name => {
       this.character.abilityScores.push(this.generateAbilityScore(name));
     });
+    this.abilityScores$.next(this.character.abilityScores);
   }
   private generateAbilityScore(name: string): IAbilityScore {
     return {

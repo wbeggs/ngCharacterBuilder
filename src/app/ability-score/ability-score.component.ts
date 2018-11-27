@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { IAbilityScore } from '../interfaces/character-interfaces';
 
 @Component({
   selector: 'app-ability-score',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ability-score.component.css']
 })
 export class AbilityScoreComponent implements OnInit {
-
+  @Input() abilityScore: IAbilityScore;
   constructor() { }
 
   ngOnInit() {
